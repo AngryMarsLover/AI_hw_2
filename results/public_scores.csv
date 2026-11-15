@@ -1,0 +1,5 @@
+submission,public_score,local_fold4_equivalent,description
+yolo11s_base_fold4.csv,0.26054,0.2105,YOLO11s defaults trained on folds 0-3
+yolo11s_aug_lr_fold4.csv,0.24059,0.2316,"scale 0.9, mixup 0.1, AdamW lr 0.0003, trained on folds 0-3"
+yolo11s_aug_lr_nwd_all.csv,0.24146,0.2403,"tuned YOLO11s (aug + lr + NWD) on all clips, 14 of 30 epochs"
+ens_all5.csv,0.26782,0.2763,"WBF 2:2:2:1:1 of all-clips YOLO, its flip and 2x2 tiles, Faster R-CNN and RetinaNet (fold 4 checkpoints)"
